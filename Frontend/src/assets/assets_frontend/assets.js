@@ -88,30 +88,30 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Mayank Varshney',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '10 Years',
+        about: 'Dr. Mayank Varshney is conveniently located in Ghaziabad City, Ghaziabad, near Near Haldiram, making it easily accessible by public transportation for patients. For all type of diseases consult. General physician. Online consultation by appointment only . Clinic visit as per appointment only.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Residential clinic, Supertech Livingston,',
+            line2: 'Crossings Republik, Ghaziabad, Uttar Pradesh 201016'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Anita Singla',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '21 Years',
+        about: 'A medical practitioner and expert involved with patient care; worked closely with other doctors to provide comprehensive evaluation and treatment services for patients; Aims at promoting optimal wellness for women shares a sense of duty and enthusiasm towards a goal to keep a professional atmosphere.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Plot Number NH-1, Sector 6, Vikas Marg, Landmark: K.R. Mangalam',
+            line2: 'World School | Best CBSE School in Vaishali, Ghaziabad'
         }
     },
     {
@@ -172,30 +172,30 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Raman Kumar',
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '12 Years',
+        about: 'Medical Clinic, Consultant Physician, Diabetes Care, Thyroid Care, Hypertension, Asthma and Allergies, Epilepsy, Migraine, Joint Pain, Fever and infections - Dengue, Typhoid, Urine Infection, COVID, Viral, Care for the Whole Family, Children, Adults, Elderly Care, Preventive Health Check, vaccinations, Medical Fitness for Job, School & Travel Preventive Packages, Nursing services at Home, International Travel, Home Care, Dietitian.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Shop no 31, Ground floor, New Tech, LaGarcia,',
+            line2: 'Crossings Republik, Ghaziabad, Uttar Pradesh 201016'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Ranjana Becon',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '28 Years',
+        about: 'Dr. Ranjana Becon is a reputed gynecologist in Ghaziabad. She has vast experience and is highly qualified. Dr. Ranjana is currently associated with Manipal Hospital Ghaziabad as a consultant with the Department of Obstetrics & Gynecology. She is soft-spoken, sincere, professional and compassionate. Her areas of expertise include fertility and high-risk pregnancy.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'NH 24, Hapur Road, Landmark: Near',
+            line2: 'Landcraft Golflinks, Ghaziabad'
         }
     },
     {
@@ -256,30 +256,30 @@ export const doctors = [
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dr. Gunjan Jha',
         image: doc13,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '10 Years',
+        about: 'Dr Gunjan Jha completed MBBS in 2013 from Ranchi University. She did her DNB Family Medicine from Fortis Hospital Noida. She worked for 4 years at Fortis Hospital. Currently she is working as a Family Physician as Consultant Physician at Atlanta hospital Ghaziabad and Pursuit of Health Clinic, Indirapuram. Her expertise is in treating infectious disease; stomach , lung diseases; chronic diseases such as hypertension, diabetes, migraine, joint pain and others.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Plot Number 155, Vijay Laxmi Marg,',
+            line2: 'Niti Khand 1, Landmark: Near Mangal Chowk, Ghaziabad'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Shubhra Jaiswal',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '21 Years',
+        about: 'Dr. Shubhra Jaiswal is a Gynecologist in Vaishali, Ghaziabad and has an experience of 21 years in this field. Dr. Shubhra Jaiswal practices at AVee Hospital in Vaishali, Ghaziabad. She completed MBBS from University Of Allahabad in 2004 and DGO from Chhatrapati Shahu Ji Maharaj Medical University in 2014.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Plot Number NH-1, Sector 6, Vikas Marg,',
+            line2: 'Landmark: K.R. Mangalam World School '
         }
     },
     {

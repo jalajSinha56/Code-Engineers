@@ -8,8 +8,8 @@ const Myprofile = () => {
     email: "jalajsinha140903@gmail.com",
     phone: "9336318558",
     address: {
-      line1: "57th Cross, Richmond",
-      line2: "Circle, Church Road, London"
+      line1: "ABES Engineering College",
+      line2: "Near Crossing Republic, Ghaziabad",
     },
     gender: 'Male',
     dob: '2003-09-14',

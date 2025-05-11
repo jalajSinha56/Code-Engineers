@@ -13,9 +13,9 @@ const Contact = () => {
 
         <div className='flex flex-col justify-center items-start gap-4'> 
           <p className='font-semibold text-lg 2xl:text-3xl text-gray-600'>OUR OFFICE</p>
-          <p className='text-gray-500'>54709 Willms Station <br />Suite 350, Washington, USA</p>
-          <p className='text-gray-500'>Tel: (415) 555-0132 <br/>Email: greatstackdev@gmail.com</p>
-          <p className='text-gray-600 font-semibold text-lg 2xl:text-2xl'>Careers at PRESCRIPTO</p>
+          <p className='text-gray-500'>459, Romano, Mahagum Mascort <br />Crossing Republik, Ghaziabad</p>
+          <p className='text-gray-500'>Tel: +91-8798238733 <br/>Email: jalajsinha140903@gmail.com</p>
+          <p className='text-gray-600 font-semibold text-lg 2xl:text-2xl'>Careers at DOC-CONNECT</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm 2xl:text-lg hover:bg-black  hover:text-white transition-all duration-500 '>Explore Jobs</button>
         </div>

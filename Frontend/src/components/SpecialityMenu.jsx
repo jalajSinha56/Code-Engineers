@@ -18,7 +18,7 @@ const SpecialityMenu = () => {
             to={`/doctors/${item.speciality}`}
           >
             <img className='w-10 xl:w-24 mb-3 2xl:w-40 2xl:mb-4' src={item.image} alt="" />
-            <p>{item.speciality}</p>
+            <p className='text-lg'>{item.speciality}</p>
           </Link>
         ))}
       </div>

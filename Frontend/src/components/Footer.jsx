@@ -9,7 +9,7 @@ const Footer = () => {
             {/*-----------Left section----------*/}
             <div>
                 <img className = 'mb-5 w-40'src ={assets.logo} alt="" />
-                <p className = 'w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatibus nihil vel quia, vero rerum nulla, sapiente, beatae ullam repellat exercitationem quisquam sunt dolores laboriosam pariatur impedit veniam maxime voluptates.</p>
+                <p className = 'w-full md:w-2/3 text-gray-600 leading-6'>Welcome to Doc-Connect. Your Trusted Partner In Managing Your Healthcare Needs Conveniently and Efficiently. At Doc-Connect, we understand the Challenges Individuals face when it comes to Scheduling Doctor Appointments and Managing the Health Records.</p>
             </div>
             <div>
             {/*-----------Middle section----------*/}
@@ -27,8 +27,8 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-2 text-gray-600'>
-                    <li>+91-9456729474</li>
-                    <li>jakeus09@gmail.com</li>
+                    <li>+91-9336318558</li>
+                    <li>jalajsinha140903@gmail.com</li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
             {/*-------Copyright Text----------*/}
             <div>
                 <hr className = 'text-gray-200'/>
-                <p className='py-5 text-sm text-center 2xl:text-[20px] text-gray-700'>Copyright 2024@ Prescripto - All Right Reserved</p>
+                <p className='py-5 text-sm text-center 2xl:text-[20px] text-gray-700'>Copyright 2024@ Doc-Connect - All Right Reserved</p>
             </div>
         </div>
     </div>
