@@ -1,20 +1,33 @@
-import express from 'express';
-import cors from 'cors';
-import 'dotenv/config';
-import connectDB from './config/mongodb.js';
+const express = require('express');
+const cors = require('cors');
+const dbconn = require('./database/dbconnection');
+const adminRouter = require('./routes/adminRoute');
+const setupCloudinary = require('./utils/cloudinary');
 
-//app configuration
 const app = express();
-const port = process.env.PORT || 4000;
-connectDB();
+const port = 4000;
 
-//middlewares
-app.use(express.json());
+// Connect to MongoDB
+dbconn(); // Logs success/failure
+setupCloudinary();
+
+// Middleware
 app.use(cors());
+// ✅ Then body parsing for JSON requests
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-//api endpoints
-app.get('/',(req, res) => {
-    res.send('API WORKING GREAT');
+// ✅ Multipart route BEFORE body parsers
+app.use('/api/admin', adminRouter); // contains the image upload
+
+
+
+// Root test route
+app.get('/', (req, res) => {
+    res.send('API working with DB connection only.');
 });
 
-app.listen(port, () => console.log("Server Started",port));
+// Start server
+app.listen(port, () => {
+    console.log(`Express server is running on::${port}`);
+});
