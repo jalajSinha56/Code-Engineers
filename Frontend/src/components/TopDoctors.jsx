@@ -1,31 +1,43 @@
-import React, { useContext } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { AppContext } from '../context/AppContext'
+import React, { useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { AppContext } from '../context/AppContext';
 
 const TopDoctors = () => {
-    const navigate= useNavigate()
-    const {doctors} = useContext(AppContext)
-  return (
-    <div className='flex flex-col items-center gap-4 my-16 text-gray-900 2xl:mx-30 xl:mx-20'>
-        <h1 className='md:text-4xl 2xl:text-6xl font-bold' >Top Doctors to Book</h1>
-        <p className='sm:w-1/3 lg:text-2xl text-center text-sm'>Simply browse through our extensive list of trusted doctors.</p>
-        <div className='w-full grid md:grid-cols-4 lg:grid-cols-5 md:gap-2 lg:gap-4 pt-5 gap-y-6 px-7 md:ml-6 lg:ml-20 md:mr-6 lg:mr-20  sm-px-0 ' >
-            {doctors.slice(0,10).map((item,index)=>(
-                <div onClick={()=>{navigate(`/appointment/${item._id}`); scrollTo(0,0)}} className="border border-blue-200 md:ml-6  rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-15px] transition-all duration-300" key={index}>
-                    <img className="bg-blue-50 w-full  " src={item.image} alt="imhg" />
-                    <div className='p-7'>
-                        <div className='flex items-center gap-2 text-sm text-center text-green-500' >
-                            <p className='w-2 h-2 rounded-full bg-green-500' ></p><p>Available</p>
-                        </div>
-                        <p className='text-gray-900 text-lg font-medium'>{item.name}</p>
-                        <p className='text-gray-600 text-sm'>{item.speciality} </p>
-                    </div>
-                </div>
-            ))}
-        </div>
-        <button onClick={()=>{navigate('/doctors'); scrollTo(0,0)}} className='bg-blue-200 text-gray-600 text-2xl px-12 py-5 rounded-full mt-10'>More</button>
-    </div>
-  )
-}
+  const navigate = useNavigate();
+  const { doctors } = useContext(AppContext);
 
-export default TopDoctors
+  return (
+    <div className='flex flex-col items-center gap-4 my-16 text-gray-800 2xl:mx-30 xl:mx-20'>
+      <h1 className='md:text-4xl 2xl:text-6xl font-bold'>Top Doctors to Book</h1>
+      <p className='sm:w-1/3 lg:text-2xl text-center text-sm text-gray-600'>
+        Browse through our handpicked list of trusted doctors.
+      </p>
+      <div className='w-full grid md:grid-cols-4 lg:grid-cols-5 gap-4 pt-5 px-6'>
+        {doctors.slice(0, 10).map((item, index) => (
+          <div
+            onClick={() => { navigate(`/appointment/${item._id}`); scrollTo(0, 0); }}
+            className='bg-white border border-gray-200 rounded-xl shadow hover:shadow-md transition-transform hover:-translate-y-2 cursor-pointer'
+            key={index}
+          >
+            <img className='w-full bg-gray-100 rounded-t-xl' src={item.image} alt="doctor" />
+            <div className='p-5'>
+              <div className='flex items-center gap-2 text-sm text-green-500 mb-1'>
+                <span className='w-2 h-2 rounded-full bg-green-500' /> <p>Available</p>
+              </div>
+              <p className='text-gray-900 text-lg font-medium'>{item.name}</p>
+              <p className='text-gray-600 text-sm'>{item.speciality}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      <button
+        onClick={() => { navigate('/doctors'); scrollTo(0, 0); }}
+        className='bg-blue-100 text-blue-800 text-lg px-10 py-3 rounded-full mt-10 hover:bg-blue-200 transition-all'
+      >
+        View More
+      </button>
+    </div>
+  );
+};
+
+export default TopDoctors;
